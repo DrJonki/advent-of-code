@@ -6,6 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+md5 = "0.7.0"
+regex = "1.9.5"
 
 [[bin]]
 name = "2015-01"
@@ -22,3 +24,11 @@ path = "2015/03/main.rs"
 [[bin]]
 name = "2015-04"
 path = "2015/04/main.rs"
+
+[[bin]]
+name = "2015-05"
+path = "2015/05/main.rs"
+
+[[bin]]
+name = "2015-06"
+path = "2015/06/main.rs"
