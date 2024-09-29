@@ -14,7 +14,7 @@ fn main() {
     // Part 1
     {
         let match_vowels = Regex::new(r"[aeiou]").unwrap();
-        let match_consecutive = RegexSet::new(&[
+        let match_consecutive = RegexSet::new([
             r"aa", r"bb", r"cc", r"dd", r"ee", r"ff", r"gg", r"hh", r"ii", r"jj", r"kk", r"ll",
             r"mm", r"nn", r"oo", r"pp", r"qq", r"rr", r"ss", r"tt", r"uu", r"vv", r"ww", r"xx",
             r"yy", r"zz",

@@ -19,7 +19,7 @@ fn main() {
                 '<' => current_coords.0 -= 1,
                 '^' => current_coords.1 += 1,
                 'v' => current_coords.1 -= 1,
-                _ => return (),
+                _ => return,
             };
 
             map.insert(current_coords);
@@ -48,7 +48,7 @@ fn main() {
                 '<' => current_coords.0 -= 1,
                 '^' => current_coords.1 += 1,
                 'v' => current_coords.1 -= 1,
-                _ => return (),
+                _ => return,
             };
 
             map.insert(*current_coords);

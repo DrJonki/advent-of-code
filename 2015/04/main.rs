@@ -1,5 +1,3 @@
-use md5;
-
 fn main() {
     let key = b"yzbqklnj";
 
